@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libbzip2,
-        "bin/libbz2-1.dll",
+        "bin\\libbz2-1.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
