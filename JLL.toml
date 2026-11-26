@@ -1,0 +1,870 @@
+version = "1.0.10"
+format_version = "1.0"
+name = "Bzip2"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "Bzip2"
+platform = "x86_64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:2eb005233fa31b83b2c52cbd5af50c487427158a"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:f36eafab97a81edb05e5e6bb05c6f9640f924d81361a854c62daf535ba48bfd2"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.x86_64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:c037df7199790da612752faf38a26ded5a6cf64b"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:e2304bfd829c6ba068d058d61186023f8da7bb0256e573a55e07c4c200c68c5c"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:c0ad65f701ced37817820bba95e7010a43787b17"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:18737db608b04596ac262f037349fae078d20362b2dcdfd3075271459f7516d0"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.x86_64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "i686-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:903fd2e4b97f27b4daa431924191682a76e004a0"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:06314795882790a0520c5bdc6081adc134667fcc04160e11b7f19470f5cbd94f"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.i686-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:f06f04baeb0eb0829d44b1e48df653f5b17d8994"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:a68d97b1ebd86017a1a67d6f802ad6b82b77368d8169a1b45040b763464ec211"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.i686-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:0dbf32bbd8f2af51155e74e7d14852b9df69b1dc"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:1733ebb1d6e5a16d2562d86961c154e5b96fd0a30c3e29d4fe9d7e0068ad2509"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.i686-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "aarch64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:11b6dfa0b4e38ef287badcb6f36690ffb44d1fda"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:26fdc6d9f2139e4b9dc931a4f8a6fb85681e09e664c50ccc00a27362d60f7537"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.aarch64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:1ecc365da9566590e4b95e2f003da8297ee8b722"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:5e1d1724f96f709e43acb8e93e089b2a98cdf5f7479c2edf3ad625e48534635b"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ea8a042eaf1155619ea4c60b565aebe9bed47af8"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:348ca802b051f52eae1ecbf0d1f74eaa53279bd5d90928fdb4b4d5dae27445b5"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.aarch64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "armv6l-linux-gnueabihf"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:92ceac172d6d69953d4bda1e47797495cd0be9ba"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:6324162aabd32cd45cd582ca8862d4c971120c2c464a170d61da7436e1762d69"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:82925f2b774578d981ca31be8ba5a029d8cd0949"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:9895305051c18ac0b0aa4e8879ec2ea7c277effc2b7cc6aaf835187aa3adda7c"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.armv6l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a50257cd9a66abc2721ea3d1da759f83386f0a23"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:fe290d79610368cd346a4aab6f4930da62a70dd1fab88691882f899d2334c502"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "armv7l-linux-gnueabihf"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:f98fb78f6baa2e159f665321f30107485466633d"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:19d0d2cfc62b1798c18c98e7c022c60a5ec1f4bb051b2d02ad64aae9fae36a91"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:130ae9f4dbd179b3181178487d9138253ca7fccd"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:594caf91564ca3a5e6fe5deebc6ea04819b7a8ca6c40dd78b2723d8d17e5d913"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.armv7l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:83ddfbe49a01845592eb223be42d7b740040f25d"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:115c32f9aad562380a98b80fc6643836e5c2e253ff7256b542908d4839765bec"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "powerpc64le-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:1c7589fbcca138a5147342ccc7e2a3a68b4628e6"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a2514f18fe12f288bb6af55db9ba74054f83638444b222ae2be28d2692682cf2"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:915def6bcb7808ce709ac74a1ef0bd393bb956ac"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:8220963187979020b9f3de6f8dfe3653c80183f76e0ecee9287beff28e595b52"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.powerpc64le-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:aea2b1ad3ef287ebdf73bfe3b888aa294c72782c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:d3c71bbf67f8c9eabaea8db1635052a59196c55bb8855980e02371b32dcf3958"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "riscv64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:118def0137d2b8fedfb966935b7cefd05057aad7"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:e4cae10566d3dc0e3c9b3d5c81143a71cdffa8206504d5ce99a494173b700633"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.riscv64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:83be54cb281dd639ea45c9ebd9a2d7a73f8ab8cf"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:6f8f199c4e322ed29d6a3b575aaced6ce759baa590bfa3aa3074d25ad3c14e6e"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.riscv64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:0d0069f4a301a17d3dd265f5ca8d130652c5d5fd"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:707391e9078c66953911381a75c561c5501bf7b04ccd9cffe1b15df1fdcbcbc7"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.riscv64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "x86_64-linux-musl"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:002ca27318042d91f50c71909a5119da7d277448"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:512295f694afd2a26a1b1610bb26527da7f9b1c70f1dde3b8f247e167f425d90"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.x86_64-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:0feb65aa884052e52e019d8f9c2c62b65358c99a"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:3fb632a29ba73d869d5cf34835ee8f8771026c061ae5a35ad61021b256581486"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.x86_64-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:b3a49de7ba3dfe8beabdeeaffb2dd75db03d3e03"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:be43ca061de8485cc16413222dee5d00be2d07721908bc52cf6463268e6282fd"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.x86_64-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "i686-linux-musl"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:2bb1f5caa3b71a0a7da1f9c41f2f6953bed406d8"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:67b0ca6a1a4ed84735029107a471c5a4f8d19c5248a3575d0226847fd0c9e38f"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.i686-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:bedde9bd0bdcb6ce0bb080dd17bd8d405512740e"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:7802c2623522d443cf7eb32ec5a08c78ac1184c20fb4ac4ed8586e89bfe39e78"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.i686-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:1424922fd5c4648ebe0fa7ae85cdc79c494dc92e"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:fba9cdebc1b734d234e6290b803cf7ebea2b608256de274b48be6a8d9adaf514"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.i686-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "aarch64-linux-musl"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:25e7aac8db698d5bea232f4d92e912e16807c80d"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:aacc8180c0e575459f2c97311ef7040a76a097414ae67433ac9a64ae05419da8"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.aarch64-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:b4293a0db5a5ac0ef59bafb0f365b7dd19bf263f"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:82fa7420c422e6bc2938dfae477bda5c3a41aa94739d4e3818a3d1d6c99786c8"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.aarch64-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:dfce0c6e79644c6ddd10641335043bb6e0a2a166"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:0cad8bc53bb7708d2090b8314f7fc662bb46ef72ba76c9fbe4805f30d78cea7b"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.aarch64-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "armv6l-linux-musleabihf"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:0c4d87ccebadbfb8d37dac21dbe6636f13244b62"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:9a23d023e3b9d6b8de0d484b3c619455db42229ef4e9b8896a20b6d7ad66a718"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.armv6l-linux-musleabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:8e4536ace95d45ed05d373f19e3fa3fffe18d082"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:4959f645cea9f271504404882c7ff3b17aa6c6fc19fb03a296a6041835615f5e"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.armv6l-linux-musleabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:065648995fe871c5bbe1e2fce0cf7e1b8b60860d"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:144149a798b2a8306770b3ae6c5e170d45c237f46236a99a16e207c5a7312942"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.armv6l-linux-musleabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "armv7l-linux-musleabihf"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:df39a38f61c4b0381453e494f2ff0a4b20921479"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:51d8987fb3afdecf76096c4f7fb0749430937a514c2d2cb82f8877be2209d903"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.armv7l-linux-musleabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:6fc2f204b4f92d417697de0e0b8c46526ab4ceb2"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:8357a72497165eb581f6a0371897f9729c477ecc4f8bf28a7e50c84e08cb36cf"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.armv7l-linux-musleabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:be0e5d213bf9dee9710e5d6cc4c98933033d7d7c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:95a82342f27bc6c160f9131bccc327cea28dd29b8bae23b43a4f0006d93991be"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.armv7l-linux-musleabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "x86_64-w64-mingw32"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:4feb6013ec49e7a92f74a1fd717bef937f5c5dd4"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:0719e2b6616900d1ccc713ee6c5ccaeb033b4ed9d4b1950e6d386571cb518054"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.x86_64-w64-mingw32.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "bin/libbz2-1.dll"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2-1.dll"
+    system_deps = ["kernel32", "msvcrt"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:4370a8f6ebb05da2bd1a438368108f698e134768"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:68e5f20b52d41195ba536dad2d3e2aec282b585e8b7f58fb954ad94f17e07bae"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.x86_64-w64-mingw32.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:86383a2d34b2a3a63813bb8e7c9932d891f01922"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:22deabe2d423cbdb0596f09dcb0932d294a53e50bacccc8239d3372927c0e93a"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.x86_64-w64-mingw32.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "i686-w64-mingw32"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:910dbcb7a7bfff6d189d3ae1b5e414b2e2d30220"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:ab130a05d4affcf850ed9b3bd314904cb7f1006de91381bfa99b8ff0f02ac692"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.i686-w64-mingw32.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "bin/libbz2-1.dll"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2-1.dll"
+    system_deps = ["kernel32", "msvcrt"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:d3a015f99e769f6b006008e202186bbd7e9540fd"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:3f68ccacb3cbe931faade995fa9b0b9a20e9a3af06ec4b95d4437e92a75f279b"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.i686-w64-mingw32.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ad204b05c66a17888c52973d3dce7ceccc8502b1"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:9bacbb5a2703963a82f1af1f96fda7d5d379537e4dc95eb268cedde6187838eb"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.i686-w64-mingw32.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "x86_64-apple-darwin20"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:cdf8028e483aca9dcc4344d168de8657eff31265"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:485647750c5d8ee2f023c68739769bfaba129b86ce0d187a8c21a04ec965b295"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.x86_64-apple-darwin20.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.1.0.9.dylib"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.1.0.dylib"
+    system_deps = ["System"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:3f8dfd737b436bda421252356bf8935b4661caca"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:19e169b7277f01489e979a06b849477b016a611709c5469b9953e8cc1798ccd5"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.x86_64-apple-darwin20.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ecb4ca919ac77ee8176a220334a495bd8c18f161"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:1b13f8d66d1bb15f1e37a38b3c673726b5defced220c282a33a529551c8b8a6a"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.x86_64-apple-darwin20.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "aarch64-apple-darwin20"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:60feaefea3bab73ac86dd12321345d134fc9648d"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:3218fc0573eaeed4590522491413193e5dbf3ada89c66cf63b73290493172ff0"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.aarch64-apple-darwin20.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.1.0.9.dylib"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.1.0.dylib"
+    system_deps = ["System"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:0d50780cdc45911825d65a8937174055889f2f3e"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:5f052186fe6564cc1f94c77c67b428235f7c432991cdddc3601793b5e0be93d2"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.aarch64-apple-darwin20.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:d24b39edcce28697c66cde372ef0f95796ee6939"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:c03a9577c929357d49b1aa44a421dc8ed66f448469fb2a13165b8e67579d05da"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.aarch64-apple-darwin20.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "x86_64-unknown-freebsd14.1"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:073921f85b7132b886c7373cd5301eaeed4a8db3"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:2f56def2e0f9f6ef306b7c3f7f6641c683a1bb5c2b4edb250e2ea54479a311dc"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.x86_64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:ad0a571b5b47439919166949336dd90a2768064b"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:c87d972804b1e38eb655576991a42cac87969e9de54741b1bc2d5701dfe092b9"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.x86_64-unknown-freebsd14.1.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:4717a90d55578573b0bb620d90355740a8aa1873"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:9bbc73fa132d471eef64493beb57e4a214c2b66c1913a83cecaf5643c812df98"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.x86_64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
+[[builds]]
+name = "Bzip2"
+platform = "aarch64-unknown-freebsd14.1"
+deps = []
+lazy = "false"
+src_version = "1.0.8"
+
+    [builds.artifact]
+    treehash = "sha1:8fe257d4cf2fd0bf0d944f008553ae78c4345a6a"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:77179e988c3db1ccc3da68b0127e4b725f111eb8084a0198f3c2f22b5d44cdde"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2.v1.0.10.aarch64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:2c94a567604c39622b40b328f2ed6a2ce7fa9a34"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:2adac31984f2733710c189963a055eb7117c3ac44a5675ac30dcf07ddc358d4f"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-extract_log.v1.0.10.aarch64-unknown-freebsd14.1.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:72b4f6f4f3f17de3e00bcee220c624d5659058f6"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:7ac30ef66cc023cc13d1ad717d1d767b2d3dde3b9821df71c7b3a4083aaa25f0"
+        url = "https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl/releases/download/Bzip2-v1.0.10/Bzip2-build_log.v1.0.10.aarch64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "https://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]
